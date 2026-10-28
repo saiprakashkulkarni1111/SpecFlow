@@ -1,0 +1,19 @@
+{
+  "name": "specflow-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Voice-driven living architecture and document workbench",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "docx": "^9.5.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "file-saver": "^2.0.5",
+    "html2pdf.js": "^0.10.2",
+    "mermaid": "^11.4.1"
+  }
+}
