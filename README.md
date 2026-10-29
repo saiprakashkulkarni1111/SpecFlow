@@ -13,6 +13,8 @@ Open `http://localhost:4173`.
 
 The server exposes `GET /api/health`. The local compiler is deterministic and keyless for reliable demos. `POST /api/compile` is reserved for an optional server-side LLM proxy; no API keys are shipped to the browser.
 
+The root `index.html` also points at the modular browser entry under `public/js/`, so static artifact hosts and the Express server load the same implementation.
+
 ## Demo
 
 1. Click **INITIAL BRAIN DUMP**, then **COMMIT THOUGHT**.
